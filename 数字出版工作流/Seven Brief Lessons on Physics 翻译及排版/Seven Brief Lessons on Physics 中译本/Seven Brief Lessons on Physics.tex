@@ -1,0 +1,297 @@
+\documentclass[12pt,a4paper,twoside]{ctexrep}
+\usepackage{Alegreya}
+\usepackage{AlegreyaSans}
+\usepackage{DejaVuSansMono}
+\usepackage{csquotes}
+\usepackage{amsmath}             % Split equations
+\usepackage{mathpazo}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage[explicit]{titlesec}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{pbox}
+\usepackage{tikz}
+\usepackage{listings}            % Code syntax highlighting
+\usepackage{ctable}
+\usepackage{multirow}
+\usepackage{dcolumn}             % Align columns by decimal position
+\usepackage{float}               % Place figure or table HERE
+\usepackage[hang,small]{caption} % Modify caption labels margin=20pt, tableposition=top, textfont=it
+\usepackage{pdflscape}
+\usepackage{eso-pic}             % Cover image
+\usepackage{url}                 % Clickable URLs
+\usepackage[bookmarks]{hyperref} % PDF with links. Goes AFTER all packages
+\usepackage[all]{hypcap}         % Because the caption is set below the fig., so the fig. is not visible if a link jumps to a fig. Goes AFTER hyperref.
+\usepackage{verbatim}
+% **************************************************
+% Fonts
+% **************************************************
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[Numbers=Lining]{Alegreya}
+\setsansfont[Numbers=Lining]{Alegreya Sans}
+\setmonofont{DejaVuSansMono}
+\setmathrm{Alegreya}
+\setmathsf{Alegreya Sans}
+\setboldmathrm[BoldFont={Alegreya Bold}]{Alegreya}
+% http://tex.stackexchange.com/questions/62603/how-to-choose-a-specific-weight-from-a-font-family-using-fontspec-and-xelatex
+% **************************************************
+% Colors
+% **************************************************
+\definecolor{blue}{RGB}{34,128,188}	% 0.13 0.50 0.73 
+\definecolor{lightblue}{RGB}{199,234,253}
+\definecolor{lightgray}{RGB}{230,230,230}
+\definecolor{yellow}{HTML}{F3C50F}
+\definecolor{green} {HTML}{9ACD32}
+\definecolor{violet}{HTML}{990055}
+% **************************************************
+% Lengths
+% **************************************************
+\setlength{\parskip}{.5cm}
+\setlength{\oddsidemargin}{17.3571pt}
+\setlength{\evensidemargin}{17.3571pt}
+\setlength{\marginparwidth}{35.0pt}
+% **************************************************
+% Captions
+% **************************************************
+\DeclareCaptionFont{sf}{\AlegreyaSansLight}
+\DeclareCaptionFont{bf}{\AlegreyaSansMedium}
+\captionsetup{width=0.8\textwidth}
+\captionsetup{labelfont=bf,textfont=sf}
+% **************************************************
+% PDF output
+% **************************************************
+\hypersetup{
+% --- Configuration options ---------------------------------------------------------------------------------------------------------------------
+	breaklinks  = true,     % allow links to break over lines by making links over multiple lines into PDF links to the same target. 
+% --- Extension options -------------------------------------------------------------------------------------------------------------------------
+	linktoc     = page,     % section, slide, page, none, or all be link on TOC/LOF/LOT. Also linktocpage = true.
+	colorlinks  = true,     % false: boxed links; true: colored links (boxed links are not printed). Only named colors work.
+	linkcolor   = red,      % color of internal links
+	urlcolor    = blue,     % color of external links
+	citecolor   = blue,     % color of links to bibliography
+% --- PDF-specific display options --------------------------------------------------------------------------------------------------------------
+	linkbordercolor={1 0 0},            % The color of the box around normal links 	
+	urlbordercolor ={0.13 0.50 0.73},   % The color of the box around links to URLs 
+	citebordercolor={0.13 0.50 0.73},   % The color of the box around citations 
+% --- PDF display and information options -------------------------------------------------------------------------------------------------------
+	pdftitle     = {七堂物理概论课},                   % title
+	pdfsubject   = {Physics},   % subject of the document
+	pdfauthor={Carlo Rovelli[著];2017超越学科的认知基础课程全体同学[译]}
+	pdfstartview = {FitV},                               % fits the height of the page to the window
+} % ---------------------------------------------------------------------------------------------------------------------------------------------
+% **************************************************
+% Header and Footer
+% **************************************************
+\pagestyle{fancy}
+% --- Nothing in the headers ---------------------------------------------------------------------------------------------------------------------
+	\fancyhead{} \renewcommand{\headrulewidth}{0pt}
+% --- Chapter in left page -----------------------------------------------------------------------------------------------------------------------
+	\renewcommand{\chaptermark}[1]{%
+		\markboth{%
+			\color{gray!80!white}\footnotesize%
+			{\AlegreyaSansBlack\textbf{\chaptername\ \thechapter}}%
+			\quad%
+			{\AlegreyaSansLight#1}%
+		}{}%
+	}
+
+% --- Section in right page ---------------------------------------------------------------------------------------------------------------------
+	\renewcommand{\sectionmark}[1]{%
+		\markright{%
+			\color{gray!80!white}\footnotesize%
+			{\AlegreyaSansBlack\textbf{\thesection}}%
+			\quad%
+			{\AlegreyaSans\textit{#1}}%
+		}%
+	}%
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\fancyfootoffset[OR]{1.85cm}
+	\fancyfoot[OR]{%
+		{\ }\AlegreyaSans%
+		{\color{lightgray}\rule[-95pt]{1.25pt}{100pt}}%
+		\hspace*{10pt}\begin{minipage}[b]{1.5cm}%
+			\color{gray!80!white}\normalsize\textbf{\thepage}%
+		\end{minipage}%
+	}
+	\fancyfootoffset[EL]{1.85cm}
+	\fancyfoot[EL]{%
+		\AlegreyaSans%
+		\begin{minipage}[b]{1.5cm}%
+			\raggedleft\color{gray!80!white}\normalsize\textbf{\thepage}%
+		\end{minipage}%
+		\hspace*{10pt}{\color{lightgray}\rule[-95pt]{1.25pt}{100pt}}%
+	}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+%
+\fancypagestyle{maincontentstyle}{%
+	\pagestyle{plain}
+	\fancyhf{}
+	\fancyfootoffset[OR]{1.85cm}
+	\fancyfoot[OR]{%
+		{\ }\AlegreyaSans\footnotesize%
+		\rightmark%
+		\hspace*{0.75cm}{\color{lightgray}\rule[-95pt]{1.25pt}{100pt}}%
+		\hspace*{10pt}\begin{minipage}[b]{1.5cm}%
+			\color{gray!80!white}\normalsize\textbf{\thepage}%
+		\end{minipage}%
+	}
+	\fancyfootoffset[EL]{1.85cm}
+	\fancyfoot[EL]{%
+		\AlegreyaSans\footnotesize%
+		\begin{minipage}[b]{1.5cm}%
+			\raggedleft\color{gray!80!white}\normalsize\textbf{\thepage}%
+		\end{minipage}%
+		\footnotesize%
+		\hspace*{10pt}{\color{lightgray}\rule[-95pt]{1.25pt}{100pt}}%
+		\hspace*{0.75cm}\leftmark%
+	}
+}
+
+% **************************************************
+% User commands
+% **************************************************
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\newcommand{\bfi}{\begin{figure}}
+\newcommand{\efi}{\end{figure}}
+\newcommand{\bt}{\begin{tabular}}
+\newcommand{\et}{\end{tabular}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\pcen}{\relax\ifvmode\centering\fi\vspace*{.5ex}}
+\newcommand{\code}[1]{\textbf{\texttt{\footnotesize #1}}}
+\newcommand{\separator}{\bc\noindent\rule[2pt]{5mm}{0.1pt}$\sim \star \sim$ \rule[2pt]{5mm}{0.1pt}\ec} % Separator
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+	\node[shape=circle,draw,inner sep=2pt,fill=lightgray,lightgray!50!white] (char) {\color{gray}#1};}}
+	\renewcommand{\labelenumi}{\protect\circled{\AlegreyaBlack\arabic{enumi}}}
+	\renewcommand{\labelitemi}{\protect\circled{$\star$}}
+	\renewcommand{\labelitemii}{\color{yellow}$\star$}
+\newcommand\BackgroundPic{%
+	\put(-126,0){
+		\parbox[b][210mm]{297mm}{%
+			\vfill
+			\centering
+			\includegraphics[width=210mm,keepaspectratio]{img/cover.jpg}%
+			\vfill
+		}%
+	}%
+}%
+\newcommand{\graybox}[3]{%
+	\bc\fcolorbox{lightgray}{lightgray!50!white}{%
+		\parbox{#1\textwidth}{%
+			\bc\parbox{#2\textwidth}{#3}\ec
+		}%
+	}\ec\par
+}
+% Fuzz
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Listings
+\lstset{
+	language        = C++,
+	breaklines      = true,
+	tabsize         = 4,
+	frame           = single,
+	numbers         = left,
+	numberstyle     = \color{gray}\sffamily,
+    basicstyle      = \color{violet}\scriptsize\ttfamily,
+	keywordstyle    = \color{green!90!black}\bfseries,
+	identifierstyle = \color{black},
+	commentstyle    = \color{gray}\itshape, % white comments
+	stringstyle     = \color{blue},
+	showstringspaces= false,
+	rulecolor       = \color{lightgray},
+	backgroundcolor = \color{lightgray!50!white}
+}
+
+
+\begin{document}
+
+	% Cover and credits -----------------------------------------------------------
+	\thispagestyle{empty}
+	\pdfbookmark[0]{Cover}{cover}
+	\input{00.cover.tex}
+	\cleardoublepage
+
+	% Table of contents -----------------------------------------------------------
+	%    Title aligned right and in italics
+	\titleformat{\chapter}[block]{\raggedleft\itshape}{}
+		{0pt}{\parbox{\linewidth}{\raggedleft\vspace*{1em}\Huge#1}}
+	\pdfbookmark[0]{Contents}{contents}
+	\pagenumbering{roman}           % roman page numbering (invisible for empty page style)
+
+	\pagestyle{plain}               % display just page numbers
+	\tableofcontents
+	\cleardoublepage
+
+	\input{00.abstract.tex}
+	\cleardoublepage
+
+	% Document body ---------------------------------------------------------------
+	%	 Title over a yellow background
+	\titleformat{\chapter}{\normalfont}{}
+		{0pt}
+		{\begin{tikzpicture}[remember picture,overlay]
+			\node[yshift=-7cm] at (current page.north west)
+				{\begin{tikzpicture}[remember picture, overlay]
+					\draw[fill=yellow,yellow] (0,-1) rectangle
+						(\paperwidth,7cm);
+					\node[anchor=west,xshift=2\marginparwidth,yshift=2.5cm,rectangle]
+						{\fontsize{380}{130}\color{white}\selectfont\AlegreyaBlack\thechapter};
+					\node[anchor=west,xshift=2.5\marginparwidth,yshift=1cm,rectangle]
+						{\parbox{\linewidth}{\raggedleft\vspace*{1em}\fontsize{40}{45}\selectfont\AlegreyaBlack#1}};
+				 \end{tikzpicture}
+				};
+		 \end{tikzpicture}
+		}
+	\titlespacing*{\chapter}{0pt}{100pt}{0pt}
+
+	\pagenumbering{arabic}          % arabic page numbering
+	\setcounter{page}{1}            % set page counter
+	\pagestyle{maincontentstyle}    % fancy header and footer
+	\input{01.tex}
+	\input{02.tex}
+	\input{03.tex}
+	\input{04.tex}
+	\input{05.tex}
+	\input{06.tex}
+	\input{07.tex}
+
+	% Appendixes ---------------------------------------------------------------
+	%	 Title aligned right and in italics with chapter number
+\iffalse
+	\titleformat{\chapter}[block]{\raggedleft\itshape}{}
+		{0pt}{\parbox{\linewidth}{\raggedleft\vspace*{1em}\Huge \chaptername~\thechapter: #1}}
+
+	\appendix
+	\renewcommand\chaptername{Appendix}
+	\renewcommand{\theequation}{\Alph{chapter}.\arabic{equation}}
+	\setcounter{equation}{0}    % reset counter
+	\addtocontents{toc}{\protect\hrulefill\par}
+	\input{app1.tex}
+	\input{app2.tex}
+	\input{app3.tex}
+	\input{app4.tex}
+	
+
+	% Bibliography ---------------------------------------------------------------
+	%    Title aligned right and in italics
+	\titleformat{\chapter}[block]{\raggedleft\itshape}{}
+		{0pt}{\parbox{\linewidth}{\raggedleft\vspace*{1em}\Huge#1}}
+
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{References}
+	\renewcommand{\bibname}{References}
+	\bibliography{}
+	\bibliographystyle{alpha}
+\fi
+\end{document}
