@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.10.14)  17 OCT 2017 20:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.10.14)  31 OCT 2017 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3833,15 +3833,20 @@ m;mapping=tex-text;" at 12.0pt
 
 ] [2
 
-] (./00.abstract.tex
+] (./000.abstract.tex
 Requested font "SimSun/OT:script=hani;language=DFLT;" at 12.0pt
  -> C:/Windows/fonts/simsun.ttc
-) [3
 
-] [4
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-(./01.tex
+ [3
+
+])
+(./00.abstract.tex [4]) [5
+
+] [6
+
+] (./01.tex
 第一章
 Requested font "Alegreya/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;" 
 at 380.0pt
@@ -3951,7 +3956,11 @@ File: img/37.jpg Graphic file (type QTm)
 
 <use  "img/37.jpg" >
 File: img/38.jpg Graphic file (type QTm)
- <use  "img/38.jpg" >) (./04.tex [15] [16]
+ <use  "img/38.jpg" >
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [15])
+(./04.tex [16]
 第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4032,23 +4041,23 @@ Requested font "KaiTi/OT:script=hani;language=DFLT;" at 12.0pt
  -> C:/Windows/fonts/simkai.ttf
 )
 [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./Seven Brief Lessons on Physics.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 298.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42252 strings out of 493005
- 850615 string characters out of 6137955
- 876753 words of memory out of 5000000
+ 42255 strings out of 493005
+ 850661 string characters out of 6137955
+ 876751 words of memory out of 5000000
  45404 multiletter control sequences out of 15000+600000
  16278 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Seven Brief Lessons on Physics.pdf (45 pages).
+Output written on Seven Brief Lessons on Physics.pdf (47 pages).
