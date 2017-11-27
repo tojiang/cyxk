@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.10.14)  7 NOV 2017 00:48
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  27 NOV 2017 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3216,23 +3216,29 @@ Oblique.ttf
 Requested font "DejaVuSansMono/OT" at 12.0pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf
 Requested font "DejaVuSansMono/B/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Bold.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold
+.ttf
 Requested font "DejaVuSansMono/OT" at 12.0pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf
 Requested font "DejaVuSansMono/I/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Oblique.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Obli
+que.ttf
 Requested font "DejaVuSansMono/OT" at 12.0pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf
 Requested font "DejaVuSansMono/OT" at 12.0pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf
 Requested font "DejaVuSansMono/B/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Bold.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold
+.ttf
 Requested font "DejaVuSansMono/B/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Bold.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold
+.ttf
 Requested font "DejaVuSansMono/I/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Oblique.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Obli
+que.ttf
 Requested font "DejaVuSansMono/I/OT" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Oblique.ttf
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Obli
+que.ttf
 Requested font "DejaVuSansMono/BI/OT" at 12.0pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold
 Oblique.ttf
@@ -3490,6 +3496,9 @@ LaTeX Info: Redefining \nameref on input line 216.
 \openout4 = `"Seven Brief Lessons on Physics.out"'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 (./00.cover.tex
 File: img/cover.jpg Graphic file (type QTm)
  <use  "img/cover.jpg" > [1
@@ -3558,6 +3567,9 @@ ext;" at 12.0pt
 LaTeX Font Warning: Font shape `TU/AlegreyaSans(9)/m/sc' undefined
 (Font)              using `TU/AlegreyaSans(9)/m/n' instead on input line 20.
 
+Requested font "Microsoft YaHei/OT:script=hani;language=DFLT;mapping=tex-text;"
+ at 12.0pt
+ -> C:/Windows/fonts/msyh.ttc
 File: img/license.png Graphic file (type QTm)
 <use  "img/license.png" >
 Requested font "Alegreya Sans/OT:script=latn;language=DFLT;+lnum;mapping=tex-te
@@ -3568,7 +3580,13 @@ Requested font "Alegreya Sans/B/OT:script=latn;language=DFLT;+lnum;mapping=tex-
 text;" at 10.95pt
  -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Bold
 .ttf
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 28.
+Requested font "Microsoft YaHei Bold/OT:script=hani;language=DFLT;mapping=tex-t
+ext;" at 10.95pt
+ -> C:/Windows/fonts/msyhbd.ttc
+Requested font "Microsoft YaHei/OT:script=hani;language=DFLT;mapping=tex-text;"
+ at 10.95pt
+ -> C:/Windows/fonts/msyh.ttc
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 29.
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -3579,7 +3597,7 @@ Requested font "pplr7t" at 9.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 Requested font "pplr7t" at 7.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 28.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 29.
 
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omlzplm.fd
@@ -3591,7 +3609,7 @@ Requested font "zplmr7m" at 9.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
 Requested font "zplmr7m" at 7.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 29.
 
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omszplm.fd
@@ -3603,7 +3621,7 @@ Requested font "zplmr7y" at 9.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
 Requested font "zplmr7y" at 7.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 28.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 29.
 
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omxzplm.fd
@@ -3615,7 +3633,7 @@ Requested font "zplmr7v" at 9.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
 Requested font "zplmr7v" at 7.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 29.
 
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -3626,85 +3644,6 @@ Requested font "zplmr7t" at 12.0pt
 Requested font "zplmr7t" at 9.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 Requested font "zplmr7t" at 7.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-Requested font "Alegreya/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;" 
-at 10.95pt
- -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Regular.
-ttf
-Requested font "Alegreya/B/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;
-" at 10.95pt
- -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Bold.ttf
-Requested font "FangSong/OT" at 10.95pt
- -> C:/Windows/fonts/simfang.ttf
-\g__fontspec_family_FangSong_int=\count297
-Requested font "FangSong/BI/OT" at 10.95pt
- -> C:/Windows/fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/BI" (it probably doesn't exist).
-.................................................
-Requested font "FangSong/B/OT" at 10.95pt
- -> C:/Windows/fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/B" (it probably doesn't exist).
-.................................................
-Requested font "FangSong/I/OT" at 10.95pt
- -> C:/Windows/fonts/simfang.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/I" (it probably doesn't exist).
-.................................................
-Requested font "DejaVuSansMono/B/OT:script=latn;language=DFLT;mapping=tex-text;
-" at 12.0pt
- -> C:/Windows/fonts/DejaVuSansMono-Bold.ttf
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FangSong(0)' created for font 'FangSong' with options
-. [Ligatures=TeX,Script={CJK}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-Requested font "DejaVuSansMono/B/OT:script=latn;language=DFLT;mapping=tex-text;
-" at 10.95pt
- -> C:/Windows/fonts/DejaVuSansMono-Bold.ttf
-Requested font "pplr7t" at 10.95pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "pplr7t" at 8.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "pplr7t" at 6.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-Requested font "zplmr7m" at 10.95pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7m" at 8.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7m" at 6.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-Requested font "zplmr7y" at 10.95pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7y" at 8.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7y" at 6.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-Requested font "zplmr7v" at 10.95pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-Requested font "zplmr7v" at 8.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-Requested font "zplmr7v" at 6.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-Requested font "zplmr7t" at 10.95pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-Requested font "zplmr7t" at 8.0pt
- -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-Requested font "zplmr7t" at 6.0pt
  -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 ) [2]
 (d:/texlive/2017/texmf-dist/tex/latex/titlesec/block.tss
@@ -3721,13 +3660,9 @@ tf
 Requested font "KaiTi/OT:script=hani;language=DFLT;" at 24.88pt
  -> C:/Windows/fonts/simkai.ttf
 
-(./Seven Brief Lessons on Physics.toc
-Requested font "Alegreya/B/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;
-" at 12.0pt
- -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Bold.ttf
-Requested font "SimHei/OT:script=hani;language=DFLT;" at 12.0pt
- -> C:/Windows/fonts/simhei.ttf
-)
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write5
 \openout5 = `"Seven Brief Lessons on Physics.toc"'.
 
@@ -3743,7 +3678,7 @@ Requested font "[AlegreyaSans-Bold.ttf]/OT:script=latn;language=DFLT;+pnum;+lnu
 m;mapping=tex-text;" at 12.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Bold
 .ttf
- [1
+[1
 
 
 ] [2
@@ -3965,13 +3900,16 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 298.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 42212 strings out of 493005
- 849506 string characters out of 6137955
- 876751 words of memory out of 5000000
- 45375 multiletter control sequences out of 15000+600000
- 16214 words of font info for 142 fonts, out of 8000000 for 9000
+ 42155 strings out of 493005
+ 847462 string characters out of 6137955
+ 876753 words of memory out of 5000000
+ 45330 multiletter control sequences out of 15000+600000
+ 10512 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
