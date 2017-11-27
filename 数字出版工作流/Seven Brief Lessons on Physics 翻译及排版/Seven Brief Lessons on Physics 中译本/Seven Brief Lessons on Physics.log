@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  27 NOV 2017 23:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  27 NOV 2017 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3496,9 +3496,6 @@ LaTeX Info: Redefining \nameref on input line 216.
 \openout4 = `"Seven Brief Lessons on Physics.out"'.
 
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 (./00.cover.tex
 File: img/cover.jpg Graphic file (type QTm)
  <use  "img/cover.jpg" > [1
@@ -3660,9 +3657,13 @@ tf
 Requested font "KaiTi/OT:script=hani;language=DFLT;" at 24.88pt
  -> C:/Windows/fonts/simkai.ttf
 
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+(./Seven Brief Lessons on Physics.toc
+Requested font "Alegreya/B/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;
+" at 12.0pt
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Bold.ttf
+Requested font "SimHei/OT:script=hani;language=DFLT;" at 12.0pt
+ -> C:/Windows/fonts/simhei.ttf
+)
 \tf@toc=\write5
 \openout5 = `"Seven Brief Lessons on Physics.toc"'.
 
@@ -3678,7 +3679,7 @@ Requested font "[AlegreyaSans-Bold.ttf]/OT:script=latn;language=DFLT;+pnum;+lnu
 m;mapping=tex-text;" at 12.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Bold
 .ttf
-[1
+ [1
 
 
 ] [2
@@ -3900,16 +3901,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 298.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 42155 strings out of 493005
- 847462 string characters out of 6137955
+ 42183 strings out of 493005
+ 848935 string characters out of 6137955
  876753 words of memory out of 5000000
- 45330 multiletter control sequences out of 15000+600000
- 10512 words of font info for 123 fonts, out of 8000000 for 9000
+ 45354 multiletter control sequences out of 15000+600000
+ 10528 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
