@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  27 NOV 2017 23:25
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  11 DEC 2017 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3721,44 +3721,83 @@ apping=tex-text;" at 40.0pt
 f
 Requested font "SimSun/OT:script=hani;language=DFLT;" at 40.0pt
  -> C:/Windows/fonts/simsun.ttc
+Requested font "Alegreya/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;" 
+at 9.0pt
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Regular.
+ttf
+Requested font "Alegreya/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;" 
+at 10.0pt
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Regular.
+ttf
+Requested font "pplr7t" at 10.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+Requested font "pplr7t" at 7.6pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+Requested font "pplr7t" at 6.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+Requested font "zplmr7m" at 10.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+Requested font "zplmr7m" at 7.6pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+Requested font "zplmr7m" at 6.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+Requested font "zplmr7y" at 10.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+Requested font "zplmr7y" at 7.6pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+Requested font "zplmr7y" at 6.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+Requested font "zplmr7v" at 10.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+Requested font "zplmr7v" at 7.6pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+Requested font "zplmr7v" at 6.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+Requested font "zplmr7t" at 10.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+Requested font "zplmr7t" at 7.6pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+Requested font "zplmr7t" at 6.0pt
+ -> d:/texlive/2017/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+Requested font "Alegreya/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;" 
+at 7.6pt
+ -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Regular.
+ttf
+Requested font "SimSun/OT:script=hani;language=DFLT;" at 10.0pt
+ -> C:/Windows/fonts/simsun.ttc
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3148) has occurred while \output is active []
 
  [1
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3977) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 27.
 Requested font "[AlegreyaSans-Regular.ttf]/OT:script=latn;language=DFLT;+pnum;+
 lnum;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Regu
 lar.ttf
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(4)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 27.
 Requested font "[AlegreyaSans-Black.ttf]/OT:script=latn;language=DFLT;+pnum;+ln
 um;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Blac
 k.ttf
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(4)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(7)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 27.
 Requested font "[AlegreyaSans-Light.ttf]/OT:script=latn;language=DFLT;+pnum;+ln
 um;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Ligh
 t.ttf
-Requested font "SimSun/OT:script=hani;language=DFLT;" at 10.0pt
- -> C:/Windows/fonts/simsun.ttc
  [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4])
-(./02.tex [5]
+[4]) (./02.tex [5]
 第二章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3903,11 +3942,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42183 strings out of 493005
- 848935 string characters out of 6137955
- 876753 words of memory out of 5000000
- 45354 multiletter control sequences out of 15000+600000
- 10528 words of font info for 125 fonts, out of 8000000 for 9000
+ 42286 strings out of 493005
+ 854381 string characters out of 6137955
+ 904753 words of memory out of 5000000
+ 45454 multiletter control sequences out of 15000+600000
+ 16222 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
