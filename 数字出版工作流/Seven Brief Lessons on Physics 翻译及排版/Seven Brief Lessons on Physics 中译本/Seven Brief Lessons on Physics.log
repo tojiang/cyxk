@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  12 DEC 2017 22:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  19 DEC 2017 01:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3766,29 +3766,29 @@ ttf
 Requested font "SimSun/OT:script=hani;language=DFLT;" at 10.0pt
  -> C:/Windows/fonts/simsun.ttc
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
+Underfull \vbox (badness 8019) has occurred while \output is active []
 
  [1
 
 ]
-Underfull \vbox (badness 3977) has occurred while \output is active []
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 42.
+(Font)              scaled to size 10.0pt on input line 38.
 Requested font "[AlegreyaSans-Regular.ttf]/OT:script=latn;language=DFLT;+pnum;+
 lnum;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Regu
 lar.ttf
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(4)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 42.
+(Font)              scaled to size 10.0pt on input line 38.
 Requested font "[AlegreyaSans-Black.ttf]/OT:script=latn;language=DFLT;+pnum;+ln
 um;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Blac
 k.ttf
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(4)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 42.
+(Font)              scaled to size 10.0pt on input line 38.
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(7)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 42.
+(Font)              scaled to size 10.0pt on input line 38.
 Requested font "[AlegreyaSans-Light.ttf]/OT:script=latn;language=DFLT;+pnum;+ln
 um;mapping=tex-text;" at 10.0pt
  -> d:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSans-Ligh
@@ -3797,24 +3797,28 @@ t.ttf
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4]) (./02.tex [5]
+[4]
+Underfull \vbox (badness 3635) has occurred while \output is active []
+
+ [5])
+(./02.tex [6]
 第二章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6
+ [7
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-(./03.tex [9]
+ [9])
+(./03.tex [10]
 第三章
 File: img/31.jpg Graphic file (type QTm)
-<use  "img/31.jpg" > [10
+<use  "img/31.jpg" > [11
 
 ]
 File: img/32.jpg Graphic file (type QTm)
@@ -3823,25 +3827,25 @@ File: img/33.jpg Graphic file (type QTm)
  <use  "img/33.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [12]
 File: img/34.jpg Graphic file (type QTm)
 
 <use  "img/34.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [13]
 File: img/35.jpg Graphic file (type QTm)
 
 <use  "img/35.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [14]
 File: img/36.jpg Graphic file (type QTm)
 
 <use  "img/36.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [15]
 File: img/37.jpg Graphic file (type QTm)
 
 <use  "img/37.jpg" >
@@ -3849,49 +3853,46 @@ File: img/38.jpg Graphic file (type QTm)
  <use  "img/38.jpg" >
 Underfull \vbox (badness 1067) has occurred while \output is active []
 
- [15])
-(./04.tex [16]
+ [16])
+(./04.tex [17]
 第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
+ [18
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
-(./05.tex [20]
+ [20])
+(./05.tex [21]
 第五章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [22
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24])
-(./06.tex [25]
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25])
+(./06.tex [26]
 第六章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26
+ [27
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -3900,18 +3901,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
-(./07.tex [31]
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+(./07.tex [32]
 第七章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [33
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
@@ -3927,10 +3928,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
 Requested font "KaiTi/OT:script=hani;language=DFLT;" at 12.0pt
  -> C:/Windows/fonts/simkai.ttf
 )
-[39]
+[40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
  (./Seven Brief Lessons on Physics.aux)
@@ -3944,10 +3948,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  42286 strings out of 493005
  854381 string characters out of 6137955
- 905753 words of memory out of 5000000
+ 875752 words of memory out of 5000000
  45454 multiletter control sequences out of 15000+600000
  16222 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Seven Brief Lessons on Physics.pdf (47 pages).
+Output written on Seven Brief Lessons on Physics.pdf (48 pages).
