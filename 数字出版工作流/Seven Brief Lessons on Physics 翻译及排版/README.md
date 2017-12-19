@@ -8,15 +8,16 @@
 
 2.修改内链：
 
-   [[XXX]]
+     [[XXX]]
   
-   改成
+     改成
    
-   \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
+     \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
 
 3.修改wikipedia链接：
-   [[wikipedia:XXXX|YYYY]]
+
+     [[wikipedia:XXXX|YYYY]]
    
-   改成
+     改成
    
-   \href{https://en.wikipedia.org/wiki/XXXX}{YYYY}
+     \href{https://en.wikipedia.org/wiki/XXXX}{YYYY}
