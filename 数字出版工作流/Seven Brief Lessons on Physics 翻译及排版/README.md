@@ -8,16 +8,24 @@
 
 2.修改内链：
 
-        [[XXXX]]
-   
-        改成
-   
-        \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
+	[[XXXX]]
+
+	改成
+
+	\href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
 
 3.修改wikipedia链接：
 
-        [[wikipedia:XXXX|YYYY]]
-   
-        改成
-   
-        \href{https://en.wikipedia.org/wiki/XXXX}{YYYY}
+	[[wikipedia:XXXX|YYYY]]
+
+	改成
+
+	\href{https://en.wikipedia.org/wiki/XXXX}{YYYY}
+
+4.脚注添加：
+
+示例：脚注编号2，内容为“从某种程度来讲，狭义相对论是为了解决电动力学的非自洽问题，而广义相对论是为了解决引力问题。”
+	\footnote[2]
+	{
+	从某种程度来讲，狭义相对论是为了解决电动力学的非自洽问题，而广义相对论是为了解决引力问题。
+	}
