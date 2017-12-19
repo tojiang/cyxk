@@ -5,4 +5,5 @@
 	\includegraphics[width=.9\textwidth]{img/文件名.jpg}\\[12pt]
 	\ec
 2.修改内链：
-[[XXX]]
+   [[XXX]]改成
+   \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
