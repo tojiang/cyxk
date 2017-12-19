@@ -8,11 +8,11 @@
 
 2.修改内链：
 
-        [[XXX]]
-  
+        [[XXXX]]
+   
         改成
    
-        \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
+        \href{http://toyhouse.cc/wiki/index.php/XXX}{XXX}
 
 3.修改wikipedia链接：
 
