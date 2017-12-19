@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  19 DEC 2017 01:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.17)  19 DEC 2017 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3657,13 +3657,7 @@ tf
 Requested font "KaiTi/OT:script=hani;language=DFLT;" at 24.88pt
  -> C:/Windows/fonts/simkai.ttf
 
-(./Seven Brief Lessons on Physics.toc
-Requested font "Alegreya/B/OT:script=latn;language=DFLT;+lnum;mapping=tex-text;
-" at 12.0pt
- -> D:/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya/Alegreya-Bold.ttf
-Requested font "SimHei/OT:script=hani;language=DFLT;" at 12.0pt
- -> C:/Windows/fonts/simhei.ttf
-)
+(./Seven Brief Lessons on Physics.toc)
 \tf@toc=\write5
 \openout5 = `"Seven Brief Lessons on Physics.toc"'.
 
@@ -3804,6 +3798,256 @@ Underfull \vbox (badness 3635) has occurred while \output is active []
 (./02.tex [6]
 第二章
 
+Underfull \hbox (badness 1675) in paragraph at lines 15--15
+[]\TU/Alegreya(7)/m/n/12 * \TU/SimSun(0)/m/n/12 译者
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 注 \TU/Alegreya(7)/m/n/12 1\TU/SimSun(0)/m/n/12 ：|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 作者
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 在这
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 里的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 描述
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 似乎
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 不够
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 准确，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 前人
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 在计
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 算的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 时候
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 将能
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 量设
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 想为
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 一块
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 一块
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 朗克
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 本人
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 并没
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 有创
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 造这
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 种方
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 具有
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 革命
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 性意
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 义的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 人在
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 计算
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 的时
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 候认
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 为一
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 块一
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 块的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 能量
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 每一
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 块最
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 后都
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 是趋
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 普朗
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 克认
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 为每
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 一块
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 都是
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 一个
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 非常
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 小的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 常数，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/SimSun(0)/m/n/12 并不
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
@@ -3814,11 +4058,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9])
-(./03.tex [10]
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+(./03.tex [14]
 第三章
 File: img/31.jpg Graphic file (type QTm)
-<use  "img/31.jpg" > [11
+<use  "img/31.jpg" > [15
 
 ]
 File: img/32.jpg Graphic file (type QTm)
@@ -3827,25 +4083,25 @@ File: img/33.jpg Graphic file (type QTm)
  <use  "img/33.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [16]
 File: img/34.jpg Graphic file (type QTm)
 
 <use  "img/34.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [17]
 File: img/35.jpg Graphic file (type QTm)
 
 <use  "img/35.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [18]
 File: img/36.jpg Graphic file (type QTm)
 
 <use  "img/36.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [19]
 File: img/37.jpg Graphic file (type QTm)
 
 <use  "img/37.jpg" >
@@ -3853,23 +4109,9 @@ File: img/38.jpg Graphic file (type QTm)
  <use  "img/38.jpg" >
 Underfull \vbox (badness 1067) has occurred while \output is active []
 
- [16])
-(./04.tex [17]
-第四章
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [20])
-(./05.tex [21]
-第五章
+(./04.tex [21]
+第四章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3881,60 +4123,74 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25])
-(./06.tex [26]
-第六章
+ [24])
+(./05.tex [25]
+第五章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [26
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31])
-(./07.tex [32]
-第七章
+ [29])
+(./06.tex [30]
+第六章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [31
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [35])
+(./07.tex [36]
+第七章
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [37
 
- [37]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
 Requested font "KaiTi/OT:script=hani;language=DFLT;" at 12.0pt
  -> C:/Windows/fonts/simkai.ttf
 )
-[40]
+[44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
  (./Seven Brief Lessons on Physics.aux)
@@ -3944,14 +4200,17 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 299.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 42286 strings out of 493005
- 854381 string characters out of 6137955
- 875752 words of memory out of 5000000
- 45454 multiletter control sequences out of 15000+600000
- 16222 words of font info for 143 fonts, out of 8000000 for 9000
+ 42273 strings out of 493005
+ 853718 string characters out of 6137955
+ 910753 words of memory out of 5000000
+ 45443 multiletter control sequences out of 15000+600000
+ 16206 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,13n,97p,10461b,1123s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Seven Brief Lessons on Physics.pdf (48 pages).
+Output written on Seven Brief Lessons on Physics.pdf (52 pages).
