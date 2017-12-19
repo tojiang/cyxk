@@ -4,3 +4,5 @@
 	\bc
 	\includegraphics[width=.9\textwidth]{img/文件名.jpg}\\[12pt]
 	\ec
+2.修改内链：
+[[XXX]]
