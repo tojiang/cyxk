@@ -1,0 +1,5 @@
+﻿  Wiki_to_LaTeX.cpp
+d:\users\huang lihao\documents\github\超越学科的认知基础\数字出版工作流\seven brief lessons on physics 翻译及排版\自己编写的排版转换程序\cpp\wiki_to_latex\wiki_to_latex\wiki_to_latex.cpp(20): error C2440: “=”: 无法从“int”转换为“char *”
+  d:\users\huang lihao\documents\github\超越学科的认知基础\数字出版工作流\seven brief lessons on physics 翻译及排版\自己编写的排版转换程序\cpp\wiki_to_latex\wiki_to_latex\wiki_to_latex.cpp(20): note: 从整型转换为指针类型要求 reinterpret_cast、C 样式转换或函数样式转换
+d:\users\huang lihao\documents\github\超越学科的认知基础\数字出版工作流\seven brief lessons on physics 翻译及排版\自己编写的排版转换程序\cpp\wiki_to_latex\wiki_to_latex\wiki_to_latex.cpp(24): error C3861: “strrpl”: 找不到标识符
+d:\users\huang lihao\documents\github\超越学科的认知基础\数字出版工作流\seven brief lessons on physics 翻译及排版\自己编写的排版转换程序\cpp\wiki_to_latex\wiki_to_latex\wiki_to_latex.cpp(30): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
