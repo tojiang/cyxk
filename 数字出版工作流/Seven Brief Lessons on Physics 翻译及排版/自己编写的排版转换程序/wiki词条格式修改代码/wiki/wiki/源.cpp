@@ -1,0 +1,124 @@
+#include<stdio.h>
+int main()
+{
+	int i,k=0,g,m,j;
+	char t[100000];
+	FILE *f3,*f4;
+	f3=fopen("chapter.txt","r");
+	f4=fopen("chapter1.txt","w+");
+	for(i=0;i<100000;i++)
+	{
+		fscanf(f3,"%c",&t[i]);
+		k++;
+		if(feof(f3)!=0)
+			break;
+	}
+	for(i=0;i<k;i++)
+	{
+		if(t[i]!='[')
+		{
+			fprintf(f4,"%c",t[i]);
+		}
+		else
+		{
+			if(t[i+2]!='w')
+			{
+				fprintf(f4,"%c%c",t[i+1],t[i+2]);
+			}
+			i+=2;
+			if(t[i]!='w')
+				continue;
+			else
+			{
+				fprintf(f4,"\n\\href{https://en.wikipedia.org/wiki/");
+				i+=10;
+			}
+			for(i;i<1000000;i++)
+			{
+
+				if(t[i]=='|')
+				{
+					fprintf(f4,"}{");
+				}
+				if(t[i]==']')
+				{
+					fprintf(f4,"}\n");
+					break;
+				}
+				if(t[i]!='|')
+					fprintf(f4,"%c",t[i]);
+			}
+		}
+	}
+	fclose(f3);
+	fclose(f4);
+	FILE *fp;
+	fp=fopen("chapter1.txt","r");
+	FILE *pp;
+	pp=fopen("chapter2.txt","w+");
+	k=0;
+	for(i=0;i<100000;i++)
+	{
+		k++;
+		fscanf(fp,"%c",&t[i]);
+		if(feof(fp)!=0)
+			break;
+	}
+	fclose(fp);
+	for(i=0;i<k;i++)
+	{
+
+		if(t[i]!='[')
+		{
+			fprintf(pp,"%c",t[i]);
+		}
+		if(t[i]=='[')
+		{
+			i+=1;
+			if(t[i]=='F')
+			{
+				fprintf(pp,"%c",&t[i]);
+			}
+			else
+			{
+				fprintf(pp,"\n\\");
+				fprintf(pp,"href{http://toyhouse.cc/wiki/index.php/");
+				g=i;
+				for(i;i<100000;i++)
+				{
+					if(t[i]==']'&&t[i-1]!=']')
+					{
+						m=i-g;
+						for(j=i-m;j<i;j++)
+						{
+							fprintf(pp,"%c",t[j]);
+						}
+						fprintf(pp,"}{");
+						for(j=i-m;j<i;j++)
+						{
+							fprintf(pp,"%c",t[j]);
+						}
+						fprintf(pp,"}\n");
+						break;
+					}
+				}
+			}
+		}
+
+	}
+	fclose(pp);
+	FILE *f1,*f2;
+	f1=fopen("chapter2.txt","r");
+	f2=fopen("chapter3.txt","w+");
+	for(i=0;i<100000;i++)
+	{
+		fscanf(f1,"%c",&t[i]);
+		if(t[i]!='['&&t[i]!=']')
+			fprintf(f2,"%c",t[i]);
+		if(feof(f1)!=0)
+			break;
+	}
+	fclose(f1);
+	fclose(f2);
+}
+
