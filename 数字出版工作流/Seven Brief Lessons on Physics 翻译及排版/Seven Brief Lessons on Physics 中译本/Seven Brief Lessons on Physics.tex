@@ -24,6 +24,9 @@
 \usepackage[bookmarks]{hyperref} % PDF with links. Goes AFTER all packages
 \usepackage[all]{hypcap}         % Because the caption is set below the fig., so the fig. is not visible if a link jumps to a fig. Goes AFTER hyperref.
 \usepackage{verbatim}
+\usepackage{marginnote}
+%\usepackage[outer=7cm, heightrounded, marginparwidth=20cm, marginparsep=0.5cm]{geometry}
+
 % **************************************************
 % Fonts
 % **************************************************
@@ -247,7 +250,7 @@
 						(\paperwidth,7cm);
 					\node[anchor=west,xshift=2\marginparwidth,yshift=2.5cm,rectangle]
 						{\fontsize{380}{130}\color{white}\selectfont\AlegreyaBlack\thechapter};
-					\node[anchor=west,xshift=2.5\marginparwidth,yshift=1cm,rectangle]
+					\node[anchor=west,xshift=5\marginparwidth,yshift=1cm,rectangle]
 						{\parbox{\linewidth}{\raggedleft\vspace*{1em}\fontsize{40}{45}\selectfont\AlegreyaBlack#1}};
 				 \end{tikzpicture}
 				};
